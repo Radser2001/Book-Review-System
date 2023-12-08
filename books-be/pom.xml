@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.radser2001</groupId>
-	<artifactId>books</artifactId>
+	<artifactId>books-be</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>books</name>
 	<description>A simple API related to books</description>
