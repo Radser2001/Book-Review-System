@@ -1,4 +1,4 @@
-# Book Reviewer System
+# Book Review System
 
 <div style="display: flex; justify-content: space-between;">
   <img src="./Screenshots/home.png" height="350" width="49%">
