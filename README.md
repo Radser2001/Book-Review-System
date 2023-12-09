@@ -1,6 +1,9 @@
 # Book Reviewer System
 
-<img src="./Screenshots/home.png" height="700" width="100%">
+<div style="display: flex; justify-content: space-between;">
+  <img src="./Screenshots/home.png" height="700" width="48%">
+  <img src="./Screenshots/review.png" height="700" width="48%">
+</div>
 
 #### The Book Reviewer System is a web application designed for users to explore and review a curated collection of programming books. The project was developed to practice and showcase skills in React.js for the frontend and Spring Boot for the backend. The application interacts with the Spring Boot.
 
