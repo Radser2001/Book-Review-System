@@ -3,7 +3,6 @@ import Hero from "../hero/Hero";
 import PropTypes from "prop-types";
 
 const Home = ({ books }) => {
-  console.log(books);
   return (
     <>
       <Hero />

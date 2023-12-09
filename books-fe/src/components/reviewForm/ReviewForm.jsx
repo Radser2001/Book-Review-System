@@ -11,7 +11,6 @@ const ReviewForm = ({ handleSubmit, revText }) => {
           rows={3}
           placeholder="Write your review here..."
         />
-        <Form.Control className="mt-4" type="text" placeholder="Your name..." />
       </Form.Group>
       <Button className="mt-4" variant="primary" onClick={handleSubmit}>
         Submit

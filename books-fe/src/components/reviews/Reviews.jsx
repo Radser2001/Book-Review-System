@@ -5,8 +5,6 @@ import { useParams } from "react-router-dom";
 import ReviewForm from "../reviewForm/ReviewForm";
 
 const Reviews = ({ getBookData, book, reviews, setReviews }) => {
-  console.log(book);
-  console.log(reviews);
   const formatDate = (dateString) => {
     const options = { year: "numeric", month: "long", day: "numeric" };
     const date = new Date(dateString);
@@ -20,11 +18,10 @@ const Reviews = ({ getBookData, book, reviews, setReviews }) => {
         isbn: book?.isbn,
       });
 
-      console.log(response.data);
       setReviews([...reviews, response.data]);
       revText.current.value = "";
     } catch (error) {
-      console.log(error);
+      alert("Something went wrong !!!");
     }
   };
 

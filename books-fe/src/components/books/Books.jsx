@@ -45,7 +45,7 @@ const Books = ({ books }) => {
                     <p
                       className="card-text"
                       style={{
-                        marginBottom: "0",
+                        marginBottom: "5px",
                       }}
                     >
                       <strong style={{ fontWeight: "500" }}>
@@ -56,7 +56,7 @@ const Books = ({ books }) => {
                     <p
                       className="card-text"
                       style={{
-                        marginBottom: "0",
+                        marginBottom: "5px",
                       }}
                     >
                       <strong style={{ fontWeight: "500" }}> ISBN:</strong>{" "}
@@ -65,21 +65,13 @@ const Books = ({ books }) => {
                     <p
                       className="card-text"
                       style={{
-                        marginBottom: "0",
+                        marginBottom: "5px",
                       }}
                     >
                       <strong style={{ fontWeight: "500" }}>Page Count:</strong>{" "}
                       {book.pageCount}
                     </p>
-                    <p
-                      className="card-text"
-                      style={{
-                        marginBottom: "0",
-                      }}
-                    >
-                      <strong style={{ fontWeight: "500" }}> Status:</strong>{" "}
-                      {book.status}
-                    </p>
+
                     <button
                       onClick={() => handleAddReview(book.isbn)}
                       type="button"
